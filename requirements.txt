@@ -1,0 +1,17 @@
+# Core pipeline
+pymupdf>=1.24.3          # PDF text extraction + rasterization for OCR (tested with 2.0)
+pytesseract>=0.3.10      # wrapper for the Tesseract OCR binary (install separately, see README)
+pillow>=10.1             # image preprocessing for OCR
+pydantic>=2.6,<3         # schemas and validation
+python-dotenv>=1.0       # .env loading
+tenacity>=8.2            # retry with exponential backoff
+
+# LLM providers (only used when configured; demo mode needs neither key)
+anthropic>=1.7           # Claude: structured outputs + server-side refusal fallback
+openai>=1.40             # optional OpenAI / OpenAI-compatible provider
+
+# UI
+streamlit>=1.40
+
+# Tests
+pytest>=8.0

@@ -1,0 +1,335 @@
+{
+  "schema_version": "1.0",
+  "document": {
+    "source_name": "co_014_standard.pdf",
+    "input_type": "pdf",
+    "page_count": 1,
+    "text_layer_pages": [
+      1
+    ],
+    "ocr_pages": [],
+    "ocr_mean_confidence": null,
+    "character_count": 905,
+    "warnings": []
+  },
+  "extraction": {
+    "engine": "rules",
+    "model": null,
+    "llm_attempts": 0,
+    "fallback_used": false,
+    "fallback_reason": null,
+    "cross_checked_with_rules": false,
+    "processing_seconds": 0.004,
+    "processed_at": "2026-11-04T20:54:26.432139Z"
+  },
+  "fields": {
+    "project_name": {
+      "value": "ABC Commercial Building",
+      "confidence": 0.9,
+      "evidence": "Project:   ABC Commercial Building",
+      "status": "stated",
+      "raw_value": "ABC Commercial Building",
+      "source": "rules",
+      "alternatives": [],
+      "notes": [],
+      "confidence_factors": [
+        "base for 'stated': 0.90",
+        "x1.00 evidence match in source: exact",
+        "= 0.90"
+      ]
+    },
+    "project_number": {
+      "value": "2024-118",
+      "confidence": 0.9,
+      "evidence": "Project No.:   2024-118",
+      "status": "stated",
+      "raw_value": "2024-118",
+      "source": "rules",
+      "alternatives": [],
+      "notes": [],
+      "confidence_factors": [
+        "base for 'stated': 0.90",
+        "x1.00 evidence match in source: exact",
+        "= 0.90"
+      ]
+    },
+    "change_order_number": {
+      "value": "CO-014",
+      "confidence": 0.9,
+      "evidence": "Change Order No.:   CO-014",
+      "status": "stated",
+      "raw_value": "CO-014",
+      "source": "rules",
+      "alternatives": [],
+      "notes": [],
+      "confidence_factors": [
+        "base for 'stated': 0.90",
+        "x1.00 evidence match in source: exact",
+        "= 0.90"
+      ]
+    },
+    "original_contract_number": {
+      "value": "GC-2024-0457",
+      "confidence": 0.9,
+      "evidence": "Original Contract No.:   GC-2024-0457",
+      "status": "stated",
+      "raw_value": "GC-2024-0457",
+      "source": "rules",
+      "alternatives": [],
+      "notes": [],
+      "confidence_factors": [
+        "base for 'stated': 0.90",
+        "x1.00 evidence match in source: exact",
+        "= 0.90"
+      ]
+    },
+    "contractor_name": {
+      "value": "Summit Ridge Builders, LLC",
+      "confidence": 0.9,
+      "evidence": "Contractor:   Summit Ridge Builders, LLC",
+      "status": "stated",
+      "raw_value": "Summit Ridge Builders, LLC",
+      "source": "rules",
+      "alternatives": [],
+      "notes": [],
+      "confidence_factors": [
+        "base for 'stated': 0.90",
+        "x1.00 evidence match in source: exact",
+        "= 0.90"
+      ]
+    },
+    "client_name": {
+      "value": "ABC Holdings Inc.",
+      "confidence": 0.9,
+      "evidence": "Owner:   ABC Holdings Inc.",
+      "status": "stated",
+      "raw_value": "ABC Holdings Inc.",
+      "source": "rules",
+      "alternatives": [],
+      "notes": [],
+      "confidence_factors": [
+        "base for 'stated': 0.90",
+        "x1.00 evidence match in source: exact",
+        "= 0.90"
+      ]
+    },
+    "change_order_date": {
+      "value": "2025-03-03",
+      "confidence": 0.9,
+      "evidence": "Date:   March 3, 2025",
+      "status": "stated",
+      "raw_value": "March 3, 2025",
+      "source": "rules",
+      "alternatives": [],
+      "notes": [],
+      "confidence_factors": [
+        "base for 'stated': 0.90",
+        "x1.00 evidence match in source: exact",
+        "= 0.90"
+      ]
+    },
+    "description_of_changes": {
+      "value": "Furnish and install twelve (12) additional LED high-bay fixtures in the warehouse area, including conduit, wiring and circuiting to panel LP-2.",
+      "confidence": 0.77,
+      "evidence": "Description of Change:\nFurnish and install twelve (12) additional LED high-bay fixtures in the\nwarehouse area, including conduit, wiring and circuiting to panel LP-2.",
+      "status": "stated",
+      "raw_value": "Furnish and install twelve (12) additional LED high-bay fixtures in the warehouse area, including conduit, wiring and circuiting to panel LP-2.",
+      "source": "rules",
+      "alternatives": [],
+      "notes": [],
+      "confidence_factors": [
+        "base for 'stated': 0.90",
+        "x1.00 evidence match in source: exact",
+        "x0.85 free-text boundaries determined by rules only",
+        "= 0.77"
+      ]
+    },
+    "reason_for_change": {
+      "value": "Owner request to increase lighting levels in the warehouse.",
+      "confidence": 0.77,
+      "evidence": "Reason for Change: Owner request to increase lighting levels in the warehouse.",
+      "status": "stated",
+      "raw_value": "Owner request to increase lighting levels in the warehouse.",
+      "source": "rules",
+      "alternatives": [],
+      "notes": [],
+      "confidence_factors": [
+        "base for 'stated': 0.90",
+        "x1.00 evidence match in source: exact",
+        "x0.85 free-text boundaries determined by rules only",
+        "= 0.77"
+      ]
+    },
+    "original_contract_amount": {
+      "value": 1250000.0,
+      "confidence": 0.95,
+      "evidence": "Original Contract Amount:   $1,250,000.00",
+      "status": "stated",
+      "raw_value": "$1,250,000.00",
+      "source": "rules",
+      "alternatives": [],
+      "notes": [],
+      "confidence_factors": [
+        "base for 'stated': 0.90",
+        "x1.00 evidence match in source: exact",
+        "x1.05 cross-field: contract arithmetic consistent",
+        "= 0.95"
+      ]
+    },
+    "additional_cost": {
+      "value": 12500.0,
+      "confidence": 0.95,
+      "evidence": "Additional Cost:   $12,500.00",
+      "status": "stated",
+      "raw_value": "$12,500.00",
+      "source": "rules",
+      "alternatives": [],
+      "notes": [],
+      "confidence_factors": [
+        "base for 'stated': 0.90",
+        "x1.00 evidence match in source: exact",
+        "x1.05 cross-field: contract arithmetic consistent",
+        "= 0.95"
+      ]
+    },
+    "deducted_amount": {
+      "value": 0.0,
+      "confidence": 0.95,
+      "evidence": "Deducted Amount:   $0.00",
+      "status": "stated",
+      "raw_value": "$0.00",
+      "source": "rules",
+      "alternatives": [],
+      "notes": [],
+      "confidence_factors": [
+        "base for 'stated': 0.90",
+        "x1.00 evidence match in source: exact",
+        "x1.05 cross-field: contract arithmetic consistent",
+        "= 0.95"
+      ]
+    },
+    "revised_contract_amount": {
+      "value": 1262500.0,
+      "confidence": 0.95,
+      "evidence": "Revised Contract Amount:   $1,262,500.00",
+      "status": "stated",
+      "raw_value": "$1,262,500.00",
+      "source": "rules",
+      "alternatives": [],
+      "notes": [],
+      "confidence_factors": [
+        "base for 'stated': 0.90",
+        "x1.00 evidence match in source: exact",
+        "x1.05 cross-field: contract arithmetic consistent",
+        "= 0.95"
+      ]
+    },
+    "schedule_impact_days": {
+      "value": 5,
+      "confidence": 0.9,
+      "evidence": "Schedule Impact: Project completion extended by five (5) calendar days.",
+      "status": "stated",
+      "raw_value": "Project completion extended by five (5) calendar days.",
+      "source": "rules",
+      "alternatives": [],
+      "notes": [],
+      "confidence_factors": [
+        "base for 'stated': 0.90",
+        "x1.00 evidence match in source: exact",
+        "= 0.90"
+      ]
+    },
+    "requested_completion_date": {
+      "value": "2025-08-15",
+      "confidence": 0.9,
+      "evidence": "Requested Completion Date:   08/15/2025",
+      "status": "stated",
+      "raw_value": "08/15/2025",
+      "source": "rules",
+      "alternatives": [],
+      "notes": [],
+      "confidence_factors": [
+        "base for 'stated': 0.90",
+        "x1.00 evidence match in source: exact",
+        "= 0.90"
+      ]
+    },
+    "approval_status": {
+      "value": "approved",
+      "confidence": 0.9,
+      "evidence": "Status:   Approved",
+      "status": "stated",
+      "raw_value": "Approved",
+      "source": "rules",
+      "alternatives": [],
+      "notes": [],
+      "confidence_factors": [
+        "base for 'stated': 0.90",
+        "x1.00 evidence match in source: exact",
+        "= 0.90"
+      ]
+    },
+    "prepared_by": {
+      "value": "Jane Doe, Project Manager",
+      "confidence": 0.9,
+      "evidence": "Prepared by: Jane Doe, Project Manager",
+      "status": "stated",
+      "raw_value": "Jane Doe, Project Manager",
+      "source": "rules",
+      "alternatives": [],
+      "notes": [],
+      "confidence_factors": [
+        "base for 'stated': 0.90",
+        "x1.00 evidence match in source: exact",
+        "= 0.90"
+      ]
+    },
+    "approved_by": {
+      "value": "Robert Smith, Owner's Representative",
+      "confidence": 0.9,
+      "evidence": "Approved by: Robert Smith, Owner's Representative",
+      "status": "stated",
+      "raw_value": "Robert Smith, Owner's Representative",
+      "source": "rules",
+      "alternatives": [],
+      "notes": [],
+      "confidence_factors": [
+        "base for 'stated': 0.90",
+        "x1.00 evidence match in source: exact",
+        "= 0.90"
+      ]
+    }
+  },
+  "validation_issues": [
+    {
+      "code": "DEMO_MODE",
+      "severity": "info",
+      "message": "Deterministic rule-based mode (no LLM configured). Layout-dependent: well-labeled documents extract reliably; free-form prose may be missed.",
+      "fields": []
+    },
+    {
+      "code": "CONTRACT_ARITHMETIC_OK",
+      "severity": "info",
+      "message": "Revised contract amount $1,262,500.00 equals original $1,250,000.00 + additions - deductions.",
+      "fields": [
+        "original_contract_amount",
+        "additional_cost",
+        "deducted_amount",
+        "revised_contract_amount"
+      ]
+    }
+  ],
+  "summary": {
+    "total_fields": 18,
+    "extracted": 18,
+    "stated": 18,
+    "inferred": 0,
+    "conflicting": 0,
+    "invalid": 0,
+    "missing": 0,
+    "missing_required": [],
+    "overall_confidence": 0.9,
+    "needs_review": false,
+    "review_reasons": []
+  }
+}

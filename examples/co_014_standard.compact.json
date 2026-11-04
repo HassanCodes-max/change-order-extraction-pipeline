@@ -1,0 +1,110 @@
+{
+  "project_name": {
+    "value": "ABC Commercial Building",
+    "confidence": 0.9,
+    "evidence": "Project:   ABC Commercial Building",
+    "status": "stated"
+  },
+  "project_number": {
+    "value": "2024-118",
+    "confidence": 0.9,
+    "evidence": "Project No.:   2024-118",
+    "status": "stated"
+  },
+  "change_order_number": {
+    "value": "CO-014",
+    "confidence": 0.9,
+    "evidence": "Change Order No.:   CO-014",
+    "status": "stated"
+  },
+  "original_contract_number": {
+    "value": "GC-2024-0457",
+    "confidence": 0.9,
+    "evidence": "Original Contract No.:   GC-2024-0457",
+    "status": "stated"
+  },
+  "contractor_name": {
+    "value": "Summit Ridge Builders, LLC",
+    "confidence": 0.9,
+    "evidence": "Contractor:   Summit Ridge Builders, LLC",
+    "status": "stated"
+  },
+  "client_name": {
+    "value": "ABC Holdings Inc.",
+    "confidence": 0.9,
+    "evidence": "Owner:   ABC Holdings Inc.",
+    "status": "stated"
+  },
+  "change_order_date": {
+    "value": "2025-03-03",
+    "confidence": 0.9,
+    "evidence": "Date:   March 3, 2025",
+    "status": "stated"
+  },
+  "description_of_changes": {
+    "value": "Furnish and install twelve (12) additional LED high-bay fixtures in the warehouse area, including conduit, wiring and circuiting to panel LP-2.",
+    "confidence": 0.77,
+    "evidence": "Description of Change:\nFurnish and install twelve (12) additional LED high-bay fixtures in the\nwarehouse area, including conduit, wiring and circuiting to panel LP-2.",
+    "status": "stated"
+  },
+  "reason_for_change": {
+    "value": "Owner request to increase lighting levels in the warehouse.",
+    "confidence": 0.77,
+    "evidence": "Reason for Change: Owner request to increase lighting levels in the warehouse.",
+    "status": "stated"
+  },
+  "original_contract_amount": {
+    "value": 1250000.0,
+    "confidence": 0.95,
+    "evidence": "Original Contract Amount:   $1,250,000.00",
+    "status": "stated"
+  },
+  "additional_cost": {
+    "value": 12500.0,
+    "confidence": 0.95,
+    "evidence": "Additional Cost:   $12,500.00",
+    "status": "stated"
+  },
+  "deducted_amount": {
+    "value": 0.0,
+    "confidence": 0.95,
+    "evidence": "Deducted Amount:   $0.00",
+    "status": "stated"
+  },
+  "revised_contract_amount": {
+    "value": 1262500.0,
+    "confidence": 0.95,
+    "evidence": "Revised Contract Amount:   $1,262,500.00",
+    "status": "stated"
+  },
+  "schedule_impact_days": {
+    "value": 5,
+    "confidence": 0.9,
+    "evidence": "Schedule Impact: Project completion extended by five (5) calendar days.",
+    "status": "stated"
+  },
+  "requested_completion_date": {
+    "value": "2025-08-15",
+    "confidence": 0.9,
+    "evidence": "Requested Completion Date:   08/15/2025",
+    "status": "stated"
+  },
+  "approval_status": {
+    "value": "approved",
+    "confidence": 0.9,
+    "evidence": "Status:   Approved",
+    "status": "stated"
+  },
+  "prepared_by": {
+    "value": "Jane Doe, Project Manager",
+    "confidence": 0.9,
+    "evidence": "Prepared by: Jane Doe, Project Manager",
+    "status": "stated"
+  },
+  "approved_by": {
+    "value": "Robert Smith, Owner's Representative",
+    "confidence": 0.9,
+    "evidence": "Approved by: Robert Smith, Owner's Representative",
+    "status": "stated"
+  }
+}
