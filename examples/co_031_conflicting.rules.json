@@ -1,0 +1,372 @@
+{
+  "schema_version": "1.0",
+  "document": {
+    "source_name": "co_031_conflicting.pdf",
+    "input_type": "pdf",
+    "page_count": 1,
+    "text_layer_pages": [
+      1
+    ],
+    "ocr_pages": [],
+    "ocr_mean_confidence": null,
+    "character_count": 754,
+    "warnings": []
+  },
+  "extraction": {
+    "engine": "rules",
+    "model": null,
+    "llm_attempts": 0,
+    "fallback_used": false,
+    "fallback_reason": null,
+    "cross_checked_with_rules": false,
+    "processing_seconds": 0.003,
+    "processed_at": "2026-11-04T20:54:24.741792Z"
+  },
+  "fields": {
+    "project_name": {
+      "value": "Northgate Logistics Center",
+      "confidence": 0.9,
+      "evidence": "Project:   Northgate Logistics Center",
+      "status": "stated",
+      "raw_value": "Northgate Logistics Center",
+      "source": "rules",
+      "alternatives": [],
+      "notes": [],
+      "confidence_factors": [
+        "base for 'stated': 0.90",
+        "x1.00 evidence match in source: exact",
+        "= 0.90"
+      ]
+    },
+    "project_number": {
+      "value": "NLC-B-0098",
+      "confidence": 0.9,
+      "evidence": "Project No.:   NLC-B-0098",
+      "status": "stated",
+      "raw_value": "NLC-B-0098",
+      "source": "rules",
+      "alternatives": [],
+      "notes": [],
+      "confidence_factors": [
+        "base for 'stated': 0.90",
+        "x1.00 evidence match in source: exact",
+        "= 0.90"
+      ]
+    },
+    "change_order_number": {
+      "value": "CO-031",
+      "confidence": 0.45,
+      "evidence": "CHANGE ORDER No. CO-031",
+      "status": "conflicting",
+      "raw_value": "CO-031",
+      "source": "rules",
+      "alternatives": [
+        "CO-013"
+      ],
+      "notes": [
+        "document states different values for this field: 'CO-031' (line 1), 'CO-013' (line 4)"
+      ],
+      "confidence_factors": [
+        "base for 'conflicting': 0.45",
+        "x1.00 evidence match in source: exact",
+        "= 0.45"
+      ]
+    },
+    "original_contract_number": {
+      "value": "NLC-GC-2024-12",
+      "confidence": 0.9,
+      "evidence": "Contract No.:   NLC-GC-2024-12",
+      "status": "stated",
+      "raw_value": "NLC-GC-2024-12",
+      "source": "rules",
+      "alternatives": [],
+      "notes": [],
+      "confidence_factors": [
+        "base for 'stated': 0.90",
+        "x1.00 evidence match in source: exact",
+        "= 0.90"
+      ]
+    },
+    "contractor_name": {
+      "value": "Ironwood General Contractors",
+      "confidence": 0.9,
+      "evidence": "Contractor:   Ironwood General Contractors",
+      "status": "stated",
+      "raw_value": "Ironwood General Contractors",
+      "source": "rules",
+      "alternatives": [],
+      "notes": [],
+      "confidence_factors": [
+        "base for 'stated': 0.90",
+        "x1.00 evidence match in source: exact",
+        "= 0.90"
+      ]
+    },
+    "client_name": {
+      "value": "Northgate Industrial REIT",
+      "confidence": 0.9,
+      "evidence": "Owner:   Northgate Industrial REIT",
+      "status": "stated",
+      "raw_value": "Northgate Industrial REIT",
+      "source": "rules",
+      "alternatives": [],
+      "notes": [],
+      "confidence_factors": [
+        "base for 'stated': 0.90",
+        "x1.00 evidence match in source: exact",
+        "= 0.90"
+      ]
+    },
+    "change_order_date": {
+      "value": "2025-07-18",
+      "confidence": 0.9,
+      "evidence": "Date:   07/18/2025",
+      "status": "stated",
+      "raw_value": "07/18/2025",
+      "source": "rules",
+      "alternatives": [],
+      "notes": [],
+      "confidence_factors": [
+        "base for 'stated': 0.90",
+        "x1.00 evidence match in source: exact",
+        "= 0.90"
+      ]
+    },
+    "description_of_changes": {
+      "value": "Upgrade dock levelers at doors 14-22 from 30,000 lb to 45,000 lb capacity mechanical levelers, including pit modifications.",
+      "confidence": 0.77,
+      "evidence": "Description of Change:\nUpgrade dock levelers at doors 14-22 from 30,000 lb to 45,000 lb capacity\nmechanical levelers, including pit modifications.",
+      "status": "stated",
+      "raw_value": "Upgrade dock levelers at doors 14-22 from 30,000 lb to 45,000 lb capacity mechanical levelers, including pit modifications.",
+      "source": "rules",
+      "alternatives": [],
+      "notes": [],
+      "confidence_factors": [
+        "base for 'stated': 0.90",
+        "x1.00 evidence match in source: exact",
+        "x0.85 free-text boundaries determined by rules only",
+        "= 0.77"
+      ]
+    },
+    "reason_for_change": {
+      "value": "Tenant equipment requirements.",
+      "confidence": 0.77,
+      "evidence": "Reason for Change: Tenant equipment requirements.",
+      "status": "stated",
+      "raw_value": "Tenant equipment requirements.",
+      "source": "rules",
+      "alternatives": [],
+      "notes": [],
+      "confidence_factors": [
+        "base for 'stated': 0.90",
+        "x1.00 evidence match in source: exact",
+        "x0.85 free-text boundaries determined by rules only",
+        "= 0.77"
+      ]
+    },
+    "original_contract_amount": {
+      "value": 1000000.0,
+      "confidence": 0.63,
+      "evidence": "Original Contract Amount:   $1,000,000.00",
+      "status": "stated",
+      "raw_value": "$1,000,000.00",
+      "source": "rules",
+      "alternatives": [],
+      "notes": [],
+      "confidence_factors": [
+        "base for 'stated': 0.90",
+        "x1.00 evidence match in source: exact",
+        "x0.70 cross-field: contract arithmetic mismatch",
+        "= 0.63"
+      ]
+    },
+    "additional_cost": {
+      "value": 45000.0,
+      "confidence": 0.63,
+      "evidence": "Additional Cost:   $45,000.00",
+      "status": "stated",
+      "raw_value": "$45,000.00",
+      "source": "rules",
+      "alternatives": [],
+      "notes": [],
+      "confidence_factors": [
+        "base for 'stated': 0.90",
+        "x1.00 evidence match in source: exact",
+        "x0.70 cross-field: contract arithmetic mismatch",
+        "= 0.63"
+      ]
+    },
+    "deducted_amount": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null,
+      "status": "missing",
+      "raw_value": null,
+      "source": "none",
+      "alternatives": [],
+      "notes": [
+        "not found in the document"
+      ],
+      "confidence_factors": [
+        "no usable value (status: missing) -> 0.00"
+      ]
+    },
+    "revised_contract_amount": {
+      "value": 1054000.0,
+      "confidence": 0.63,
+      "evidence": "Revised Contract Amount:   $1,054,000.00",
+      "status": "stated",
+      "raw_value": "$1,054,000.00",
+      "source": "rules",
+      "alternatives": [],
+      "notes": [],
+      "confidence_factors": [
+        "base for 'stated': 0.90",
+        "x1.00 evidence match in source: exact",
+        "x0.70 cross-field: contract arithmetic mismatch",
+        "= 0.63"
+      ]
+    },
+    "schedule_impact_days": {
+      "value": 10,
+      "confidence": 0.45,
+      "evidence": "Schedule Impact:   10 days",
+      "status": "conflicting",
+      "raw_value": "10 days",
+      "source": "rules",
+      "alternatives": [
+        "fourteen (14) calendar days"
+      ],
+      "notes": [
+        "document states different values for this field: '10 days' (line 22), 'fourteen (14) calendar days' (line 23)"
+      ],
+      "confidence_factors": [
+        "base for 'conflicting': 0.45",
+        "x1.00 evidence match in source: exact",
+        "= 0.45"
+      ]
+    },
+    "requested_completion_date": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null,
+      "status": "missing",
+      "raw_value": null,
+      "source": "none",
+      "alternatives": [],
+      "notes": [
+        "not found in the document"
+      ],
+      "confidence_factors": [
+        "no usable value (status: missing) -> 0.00"
+      ]
+    },
+    "approval_status": {
+      "value": "approved",
+      "confidence": 0.81,
+      "evidence": "Status:   Approved",
+      "status": "stated",
+      "raw_value": "Approved",
+      "source": "rules",
+      "alternatives": [],
+      "notes": [],
+      "confidence_factors": [
+        "base for 'stated': 0.90",
+        "x1.00 evidence match in source: exact",
+        "x0.90 cross-field: approved but no approver found",
+        "= 0.81"
+      ]
+    },
+    "prepared_by": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null,
+      "status": "missing",
+      "raw_value": null,
+      "source": "none",
+      "alternatives": [],
+      "notes": [
+        "not found in the document"
+      ],
+      "confidence_factors": [
+        "no usable value (status: missing) -> 0.00"
+      ]
+    },
+    "approved_by": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": null,
+      "status": "missing",
+      "raw_value": null,
+      "source": "none",
+      "alternatives": [],
+      "notes": [
+        "not found in the document"
+      ],
+      "confidence_factors": [
+        "no usable value (status: missing) -> 0.00"
+      ]
+    }
+  },
+  "validation_issues": [
+    {
+      "code": "DEMO_MODE",
+      "severity": "info",
+      "message": "Deterministic rule-based mode (no LLM configured). Layout-dependent: well-labeled documents extract reliably; free-form prose may be missed.",
+      "fields": []
+    },
+    {
+      "code": "CONFLICTING_VALUES",
+      "severity": "warning",
+      "message": "Change Order Number: the document gives conflicting values ('CO-031' vs 'CO-013').",
+      "fields": [
+        "change_order_number"
+      ]
+    },
+    {
+      "code": "CONFLICTING_VALUES",
+      "severity": "warning",
+      "message": "Schedule Impact (days): the document gives conflicting values ('10 days' vs 'fourteen (14) calendar days').",
+      "fields": [
+        "schedule_impact_days"
+      ]
+    },
+    {
+      "code": "CONTRACT_ARITHMETIC_MISMATCH",
+      "severity": "error",
+      "message": "Revised contract amount $1,054,000.00 does not equal original $1,000,000.00 + additions - deductions = $1,045,000.00 (assuming Deducted Amount = 0); difference $9,000.00. Values are reported as written; verify the source.",
+      "fields": [
+        "original_contract_amount",
+        "additional_cost",
+        "deducted_amount",
+        "revised_contract_amount"
+      ]
+    },
+    {
+      "code": "APPROVED_WITHOUT_APPROVER",
+      "severity": "warning",
+      "message": "Status is approved but no approver name was found.",
+      "fields": [
+        "approval_status",
+        "approved_by"
+      ]
+    }
+  ],
+  "summary": {
+    "total_fields": 18,
+    "extracted": 14,
+    "stated": 12,
+    "inferred": 0,
+    "conflicting": 2,
+    "invalid": 0,
+    "missing": 4,
+    "missing_required": [],
+    "overall_confidence": 0.75,
+    "needs_review": true,
+    "review_reasons": [
+      "contract amounts are arithmetically inconsistent",
+      "2 field(s) have conflicting values",
+      "low confidence (<0.6): Change Order Number, Schedule Impact (days)"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+*** CHANGE ORDER ***
+proj:  harbor view condos - phase 2        job # HV-PH2-17
+co no. 45        dated 3rd of March 2025
+contract ref - HVC/2023/114
+GENERAL CONTRACTOR -- Atlas Building Group
+client -- Harbor View Development LLC
+
+description of changes:
+  - relocate 6 floor drains in level P1 garage per revised civil drawings C-201 rev 4
+  - add trench drain at ramp entry (40 LF)
+
+justification: civil drawing revision issued after bid
+
+orig. contract sum......USD 3,480,000
+add amount.............. USD 27,400.50
+deduct.................. (3,200.00)
+new contract total...... USD 3,504,200.50
+
+time extension: two weeks
+completion date: 02/30/2026
+STATUS: approved as noted
+submitted by: m. chen / atlas
+approved by: D. Patel
